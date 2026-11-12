@@ -1,0 +1,9 @@
+controller:
+  replicaCount: 1
+
+  ingressClass:
+    name: nginx
+    create: true
+
+  service:
+    type: LoadBalancer

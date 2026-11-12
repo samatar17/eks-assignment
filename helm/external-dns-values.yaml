@@ -1,0 +1,14 @@
+provider:
+  name: aws
+
+sources:
+  - service
+  - ingress
+
+policy: upsert-only
+
+registry: txt
+txtOwnerId: samatar-eks-cluster
+
+domainFilters:
+  - aws.samatar.co.uk
