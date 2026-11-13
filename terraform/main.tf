@@ -20,9 +20,9 @@ module "vpc" {
     "10.0.102.0/24"
   ]
 
-  enable_nat_gateway = false
-  map_public_ip_on_launch = true
-  single_nat_gateway = true
+  enable_nat_gateway      = false
+  map_public_ip_on_launch = false
+  single_nat_gateway      = true
 
   enable_dns_hostnames = true
   enable_dns_support   = true
