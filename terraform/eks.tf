@@ -1,5 +1,5 @@
-#checkov:skip=CKV_TF_1:Terraform Registry module uses version constraints
 module "eks" {
+  #checkov:skip=CKV_TF_1:Terraform Registry module uses version constraints
   source  = "terraform-aws-modules/eks/aws"
   version = "~> 20.0"
 
