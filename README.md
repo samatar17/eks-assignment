@@ -6,15 +6,15 @@ I spent hours troubleshooting errors, fixing configurations and trying to unders
 There were moments when I felt like I was going in circles, but I kept pushing because I wanted to understand what I was doing.
  What I Built
 During this assignment, I worked with:
-•	Terraform — Provisioning AWS infrastructure.
-•	Amazon EKS — Deploying a Kubernetes cluster.
-•	Kubernetes — Managing Pods, Deployments and Services.
-•	Helm — Installing Kubernetes applications.
-•	NGINX Ingress — Routing application traffic.
-•	AWS Load Balancer — Exposing my application.
-•	ExternalDNS & Route 53 — Automating DNS records.
-•	cert-manager — Configuring SSL certificates.
-•	AWS IAM — Managing permissions.
+•   Terraform — Provisioning AWS infrastructure.
+•   Amazon EKS — Deploying a Kubernetes cluster.
+•   Kubernetes — Managing Pods, Deployments and Services.
+•   Helm — Installing Kubernetes applications.
+•   NGINX Ingress — Routing application traffic.
+•   AWS Load Balancer — Exposing my application.
+•   ExternalDNS & Route 53 — Automating DNS records.
+•   cert-manager — Configuring SSL certificates.
+•   AWS IAM — Managing permissions.
 
  Challenges I Faced and How I Fixed Them
 1. IAM AccessDenied Errors
@@ -34,13 +34,13 @@ I also learned that different NGINX Ingress controllers use different configurat
 
 What I Learned
 This assignment taught me:
-•	How Terraform and EKS work together.
-•	How Kubernetes manages containerised applications.
-•	How Helm and NGINX Ingress work.
-•	How AWS IAM permissions affect Kubernetes services.
-•	How ExternalDNS and Route 53 automate DNS.
-•	How SSL certificates and Let's Encrypt verification work.
-•	How to investigate errors using logs instead of guessing.
+•   How Terraform and EKS work together.
+•   How Kubernetes manages containerised applications.
+•   How Helm and NGINX Ingress work.
+•   How AWS IAM permissions affect Kubernetes services.
+•   How ExternalDNS and Route 53 automate DNS.
+•   How SSL certificates and Let's Encrypt verification work.
+•   How to investigate errors using logs instead of guessing.
 Most importantly, I learned that troubleshooting is one of the biggest parts of being a DevOps Engineer.
  Final Thoughts
 This assignment tested my patience more than any other assignment I've completed.
@@ -48,3 +48,29 @@ I spent hours fixing errors, sometimes repeating the same commands and wondering
 But I'm proud that I successfully deployed my EKS cluster, got my application running and resolved the AWS permissions and DNS problems.
 It wasn't easy, but I learned more from the difficulties than I would have if everything had worked the first time.
 Every challenge is helping me become a better DevOps Engineer.
+
+Technical Project Summary
+
+Infrastructure
+- Provisioned an AWS VPC and Amazon EKS using Terraform.
+- Deployed a Kubernetes sample application.
+- Configured Helm, NGINX Ingress, cert-manager and ExternalDNS.
+- Integrated Route 53 for DNS management.
+
+ CI/CD and Security
+- GitHub Actions builds and tests the Docker image.
+- Terraform initialization and validation are automated.
+- Trivy and Checkov perform security scanning.
+- Pre-commit hooks check formatting, YAML, Terraform and security.
+- The latest GitHub Actions workflow completed successfully.
+
+Project Evidence
+- [Architecture Diagram](architecture.md)
+- [Assignment Screenshots](screenshots/)
+- [CI/CD Workflow](.github/workflows/ci.yml)
+- [Terraform Configuration](terraform/)
+
+Conclusion
+This project gave me practical experience with AWS,
+Terraform, Kubernetes, Docker, GitHub Actions and security
+automation, alongside valuable troubleshooting experience.
