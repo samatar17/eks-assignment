@@ -94,11 +94,11 @@ flowchart TB
     class NGINX,SVC,APP,CERT kubernetes
     class METRICS,PROM,GRAF,ALERT monitoring
 
-    style CICD fill:#312e81,stroke:#a78bfa,color:#ffffff
-    style AWS fill:#172554,stroke:#60a5fa,color:#ffffff
-    style VPC fill:#1e293b,stroke:#f59e0b,color:#ffffff
-    style EKS fill:#164e63,stroke:#22d3ee,color:#ffffff
-    style MONITOR fill:#134e4a,stroke:#2dd4bf,color:#ffffff
+style CICD fill:#ffffff,stroke:#222222,color:#000000
+style AWS fill:#ffffff,stroke:#222222,color:#000000
+style VPC fill:#ffffff,stroke:#222222,color:#000000
+style EKS fill:#ffffff,stroke:#222222,color:#000000
+style MONITOR fill:#ffffff,stroke:#222222,color:#000000
 ```
 
 ## Architecture Overview
